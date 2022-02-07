@@ -1,0 +1,125 @@
+.body{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+}
+
+.logo-navbar{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+}
+
+.logo__a{
+    text-align: right;
+}
+
+.logo__b{
+    text-align: center;
+}
+
+.barra-nav{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.thumbnail{
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
+
+.image-banner{
+    width: max-content;
+    height: 300px;
+}
+
+.profile-plus-buttons{
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-box{
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-box-name{
+    font-weight: bolder;
+}
+
+.profile-box-follower{
+    color: gray;
+}
+
+.profile-box-foto{
+    width: 90px;
+    height: 90px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 45px;
+}
+
+.nombre-plus-seguidores{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+}
+
+.botones-box{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.botones{
+    padding: 5px;
+    margin: 5px;
+}
+
+.video-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.video-section-titulo{
+    margin: 10px 0px 0px 30px;
+    padding: 10px 0px 0px 30px;
+}
+
+.video-section-inner{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.video-thumbnail{
+    padding: 0px 2px;
+    margin: 0px 2px;
+    @media screen and (max-width:574px) {
+        width:100%
+        
+    }
+}
+
+.video-titulo{
+    padding: 0px 5px 0px 5px;
+    font-weight: bold;    
+}
+
+.video-subtitulo{
+    padding: 0px 5px 0px 5px;    
+}
+
+.video-image-thumbnail{
+    width: 300px;
+    height: 169px;
+}
